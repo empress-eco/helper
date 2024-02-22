@@ -1,49 +1,62 @@
-<div align = "center">
-    <img src = "https://frappecloud.com/files/FHa94573.png" height = "128">
-    <h2>Frappe Helper</h2>
+<div align="center">
+    <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
 </div>
 
-___
-> ### Frappe Helper includes the following functionalities:
+Helper is a dynamic, fully customizable tool designed to simplify your workflow process. It provides an integrated solution for managing desk form inputs, offering a seamless user experience for developers and users alike. Whether you wish to create tailored forms, manage inputs effortlessly, or enjoy a seamless dark-theme compatible environment, Helper is the tool you need.
 
-1. Customized Desk Form based on Frappe Web Form functionalities.
-2. Integrated NumPad to manage inputs.
-3. Automatic installation of the desk forms created in the different applications.
-4. Dynamic rendering of desk forms.
-5. Compatible with Dark Theme.
+- [Documentation](https://grow.empress.eco/)
+- [Report a Bug](https://github.com/empress-eco/helper/issues)
+- [Request a Feature](https://github.com/empress-eco/helper/issues)
 
-___
-### Frappe Helper requires
-1. [Frappe Framework](https://github.com/quantumbitcore/frappe_helper.git)
+## Key Features
 
-___
-### How to Install
+- **Customized Desk Form**: Create forms fine-tuned to your specific needs.
+- **Integrated NumPad**: Input management made simple.
+- **Automatic Installation**: Smooth integration into your applications.
+- **Dynamic Rendering**: Real-time form updates for optimal functionality.
+- **Dark Theme Compatibility**: Suitable for all work environments.
 
-#### Self Host:
-1. `bench get-app https://github.com/quantumbitcore/frappe_helper.git`
-2. `bench setup requirements`
-3. `bench build --app frappe_helper`
-4. `bench restart`
-5. `bench --site [site.name] install-app frappe_helper`
-6. `bench --site [site.name] migrate`
+## Technical Stack and Setup Instructions
 
-#### Frappe Cloud:
->Available in your hosting on FrappeCloud [here](https://frappecloud.com/marketplace/apps/frappe_helper)
+Helper is built with the robust [Framework](https://github.com/empress-eco/helper.git).
 
-___
-### How to Use
-> See the documentation [here](https://github.com/quantumbitcore/frappe_helper/wiki)
+### Prerequisites
 
-___
-### Compatibility
-> V13, V14
+You'll need the [Framework](https://github.com/empress-eco/helper.git) to get started with Helper.
 
-___
-Frappe Helper is based on [Frappe Framework](https://github.com/frappe/frappe).
+### Installation
 
-___
+Follow the steps below to install Helper:
 
-### License
-> GNU / General Public License (see [license.txt](license.txt))
+```sh
+# Clone the repository:
+git clone https://github.com/empress-eco/helper.git
 
-> The Frappe Helper code is licensed under the GNU General Public License (v3).
+# Install the application:
+bench get-app https://github.com/empress-eco/helper.git
+bench setup requirements
+bench build --app Empress_helper
+bench restart
+bench --site [site.name] install-app Empress_helper
+bench --site [site.name] migrate
+```
+
+## Usage
+
+For comprehensive instructions on how to use Helper, check out our [documentation](https://grow.empress.eco/).
+
+## Contribution Guidelines
+
+We welcome and appreciate contributions! Here's how you can contribute:
+
+- Fork the Project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Branch (`git push origin feature/AmazingFeature`)
+- Open a Pull Request
+
+## License and Acknowledgements
+
+This project is under the MIT License. Your contributions are also licensed under the MIT License.
+
+Special thanks to the Empress Community, the architects behind the essential tools that power this project. Their innovation and dedication have been instrumental in building the foundations and functionalities we rely on. We are profoundly grateful for their pioneering work and ongoing support.
