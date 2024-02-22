@@ -1,12 +1,11 @@
 <div align="center">
     <img src="https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png" alt="Project Logo">
-</div>
 
 Helper is a dynamic, fully customizable tool designed to simplify your workflow process. It provides an integrated solution for managing desk form inputs, offering a seamless user experience for developers and users alike. Whether you wish to create tailored forms, manage inputs effortlessly, or enjoy a seamless dark-theme compatible environment, Helper is the tool you need.
 
-- [Documentation](https://grow.empress.eco/)
-- [Report a Bug](https://github.com/empress-eco/helper/issues)
-- [Request a Feature](https://github.com/empress-eco/helper/issues)
+[Documentation](https://grow.empress.eco/) | [Report a Bug](https://github.com/empress-eco/helper/issues) | [Request a Feature](https://github.com/empress-eco/helper/issues)
+</div>
+
 
 ## Key Features
 
